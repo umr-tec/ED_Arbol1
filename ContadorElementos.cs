@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ED_Diccionarios_
@@ -35,8 +29,37 @@ namespace ED_Diccionarios_
 
             //contar grupos
 
+            MessageBox.Show("Metodo Contar unicos");
+            ContarUnicos<int>(listaNumeros);
         }
 
+        /// <summary>
+        /// Método para contar valorea agrupados en una lista.
+        /// </summary>
+        /// <typeparam name="T">Tipo de datos generico de retorno del método</typeparam>
+        /// <param name="lista">Párametro de entrada de tipo lista.</param>
+        static void ContarUnicos<T>(ICollection<T> lista) {
+
+            Dictionary<T, int> contador = new Dictionary<T, int>();
+            foreach (T valoresLeidos  in lista)
+            {
+                if (contador.ContainsKey(valoresLeidos))
+                    contador[valoresLeidos]++;
+                else
+                {
+                    contador[valoresLeidos] = 1;
+                }
+            }
+
+            //Imprimir rsultados
+            foreach (KeyValuePair<T,int> repetidos in contador)
+            {
+                string resultado = string.Format("Numero {0} repetiido en {1} ocasiones.", repetidos.Key, repetidos.Value);
+                MessageBox.Show(resultado);
+            }
+
+        }
+             
         /// <summary>
         /// Metodo para agrupar los valores contenidos en  la lista
         /// </summary>
