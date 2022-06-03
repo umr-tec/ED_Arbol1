@@ -1,0 +1,11 @@
+C:\Users\ulise\source\repos\ED_Diccionarios_\bin\Debug\ED_Diccionarios_.exe.config
+C:\Users\ulise\source\repos\ED_Diccionarios_\bin\Debug\ED_Diccionarios_.exe
+C:\Users\ulise\source\repos\ED_Diccionarios_\bin\Debug\ED_Diccionarios_.pdb
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.csproj.AssemblyReference.cache
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.Form1.resources
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.Properties.Resources.resources
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.csproj.GenerateResource.cache
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.csproj.CoreCompileInputs.cache
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.exe
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.pdb
+C:\Users\ulise\source\repos\ED_Diccionarios_\obj\Debug\ED_Diccionarios_.ContadorElementos.resources
